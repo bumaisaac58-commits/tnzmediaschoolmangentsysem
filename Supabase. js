@@ -4,11 +4,11 @@
 // ============================================
 
 // 1. Enter your Supabase Project URL
-const SUPABASE_URL = "https://YOUR_PROJECT_ID.supabase.co";
+const SUPABASE_URL = "https://xqlruyuwsenphgpcrhpm.supabase.co/";
 
 // 2. Enter your Supabase Publishable Key
 // You can also use your legacy anon public key.
-const SUPABASE_ANON_KEY = "YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhxbHJ1eXV3c2VucGhncGNyaHBtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI5ODA2NDcsImV4cCI6MjEwODU1NjY0N30.IJ48v-stnyV7x6QkVcoG6CH4bv17ffWvRmFX6ApqLmI";
 
 // 3. Initialize Supabase
 if (!window.supabase) {
