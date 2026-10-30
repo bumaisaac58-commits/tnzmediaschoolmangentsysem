@@ -179,6 +179,56 @@
                 <span>⏱️ Takes less than 3 minutes</span>
                 <span class="text-brand-700 font-semibold cursor-pointer hover:underline" onclick="document.getElementById('registerBtn').click()">Start Now →</span>
               </div>
+<!-- SUPABASE + APPLICATION JAVASCRIPT -->
+
+<script>
+
+// ======================================
+// 1. SUPABASE CONNECTION
+// ======================================
+
+const SUPABASE_URL = "
+<!-- SUPABASE + APPLICATION JAVASCRIPT -->
+
+<script>
+
+// ======================================
+// 1. SUPABASE CONNECTION
+// ======================================
+
+const SUPABASE_URL = "https://xqlruyuwsenphgpcrhpm.supabase.co";
+
+const SUPABASE_KEY = "sb_publishable_PDoUylPVzHibWSJKWjINHA_9aNfRbl-";
+
+const db = window.supabase.createClient(
+SUPABASE_URL,
+SUPABASE_KEY,
+{
+auth:{
+persistSession:true,
+autoRefreshToken:true,
+detectSessionInUrl:true
+}
+}
+);
+
+// ========";
+
+const SUPABASE_KEY = "YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY";
+
+const db = window.supabase.createClient(
+SUPABASE_URL,
+SUPABASE_KEY,
+{
+auth:{
+persistSession:true,
+autoRefreshToken:true,
+detectSessionInUrl:true
+}
+}
+);
+
+// ========
             </div>
           </div>
 
